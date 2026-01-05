@@ -49,3 +49,5 @@ jobs:
           git add .
           git commit -m "Publish Maven artifacts"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
