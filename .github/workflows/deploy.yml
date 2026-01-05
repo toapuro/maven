@@ -24,7 +24,7 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./gh-pages"
+          path: "./"
   deploy:
     needs: build
     permissions:
