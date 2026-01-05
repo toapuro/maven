@@ -3,21 +3,21 @@
   <groupId>moffy.addonapi</groupId>
   <artifactId>addonapi</artifactId>
   <versioning>
-    <lastUpdated>20260105024446</lastUpdated>
+    <lastUpdated>20260105025323</lastUpdated>
     <snapshot>
-      <timestamp>20260105.024446</timestamp>
+      <timestamp>20260105.025323</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>mc1.20.1-2.0.0-20260105.024446-1</value>
-        <updated>20260105024446</updated>
+        <extension>jar</extension>
+        <value>mc1.20.1-2.0.0-20260105.025323-1</value>
+        <updated>20260105025323</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>mc1.20.1-2.0.0-20260105.024446-1</value>
-        <updated>20260105024446</updated>
+        <extension>pom</extension>
+        <value>mc1.20.1-2.0.0-20260105.025323-1</value>
+        <updated>20260105025323</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
