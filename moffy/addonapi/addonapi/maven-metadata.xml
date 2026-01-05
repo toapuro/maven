@@ -3,11 +3,10 @@
   <groupId>moffy.addonapi</groupId>
   <artifactId>addonapi</artifactId>
   <versioning>
-    <latest>2.0.0</latest>
-    <release>2.0.0</release>
+    <latest>mc1.20.1-2.0.0-SNAPSHOT</latest>
     <versions>
-      <version>2.0.0</version>
+      <version>mc1.20.1-2.0.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20260105022435</lastUpdated>
+    <lastUpdated>20260105023744</lastUpdated>
   </versioning>
 </metadata>

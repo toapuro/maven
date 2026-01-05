@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>moffy.addonapi</groupId>
+  <artifactId>addonapi</artifactId>
+  <versioning>
+    <lastUpdated>20260105023737</lastUpdated>
+    <snapshot>
+      <timestamp>20260105.023737</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>mc1.20.1-2.0.0-20260105.023737-1</value>
+        <updated>20260105023737</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>mc1.20.1-2.0.0-20260105.023737-1</value>
+        <updated>20260105023737</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>mc1.20.1-2.0.0-SNAPSHOT</version>
+</metadata>
