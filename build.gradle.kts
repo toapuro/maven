@@ -8,10 +8,18 @@ publishing {
             groupId = "io.github.toapuro.modmetagradle"
             artifactId = "modmetagradle"
             version = "1.0.0"
-            artifact(file("artifacts/modmetagradle/modmetagradle-forge-1.0.0.jar"))
-            artifact(file("artifacts/modmetagradle/modmetagradle-forge-1.0.0-sources.jar"))
-            artifact(file("artifacts/modmetagradle/modmetagradle-neoforge-1.0.0.jar"))
-            artifact(file("artifacts/modmetagradle/modmetagradle-neoforge-1.0.0-sources.jar"))
+            artifact(file("artifacts/modmetagradle/modmetagradle-forge-1.0.0.jar")) {
+                classifier = "forge"
+            }
+            artifact(file("artifacts/modmetagradle/modmetagradle-forge-1.0.0-sources.jar")) {
+                classifier = "forge-sources"
+            }
+            artifact(file("artifacts/modmetagradle/modmetagradle-neoforge-1.0.0.jar")) {
+                classifier = "neoforge"
+            }
+            artifact(file("artifacts/modmetagradle/modmetagradle-neoforge-1.0.0-sources.jar")) {
+                classifier = "neoforge-sources"
+            }
         }
     }
 
