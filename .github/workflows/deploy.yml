@@ -10,8 +10,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Node.js
-        uses: ./.github/actions/setup
       - name: Generate directory listing
         uses: yKicchan/generate-directory-listing-action@v1
         with:
