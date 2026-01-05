@@ -1,4 +1,4 @@
-name: Deploy
+name: Deploy to Github Pages
 
 on:
   workflow_dispatch:
@@ -11,16 +11,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout gh-pages
         uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: .
+
       - name: Generate directory listing
         uses: yKicchan/generate-directory-listing-action@v1
         with:
-          target: "."
+          target: "./"
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./"
+          path: "./gh-pages"
   deploy:
     needs: build
     permissions:
@@ -34,3 +38,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
