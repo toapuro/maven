@@ -19,6 +19,14 @@ jobs:
           distribution: temurin
           java-version: 21
 
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          cache-read-only: false
+
+      - name: Grant execute permission
+        run: chmod +x ./gradlew
+
       - name: Build Maven Repo
         run: ./gradlew publish
 
