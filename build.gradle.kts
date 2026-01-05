@@ -4,12 +4,15 @@ plugins {
 
 publishing {
     publications {
-//        create<MavenPublication>("addonapi_2.0.0") {
-//            groupId = "moffy.addonapi"
-//            artifactId = "addonapi"
-//            version = "mc1.20.1-2.0.0-SNAPSHOT"
-//            artifact(file("artifacts/addonapi/addonapi-mc1.20.1-2.0.0-SNAPSHOT.jar"))
-//        }
+        create<MavenPublication>("modmetagradle1.20.1") {
+            groupId = "io.github.toapuro.modmetagradle"
+            artifactId = "modmetagradle"
+            version = "1.0.0"
+            artifact(file("artifacts/modmetagradle/modmetagradle-forge-1.0.0.jar"))
+            artifact(file("artifacts/modmetagradle/modmetagradle-forge-sources-1.0.0.jar"))
+            artifact(file("artifacts/modmetagradle/modmetagradle-neoforge-1.0.0.jar"))
+            artifact(file("artifacts/modmetagradle/modmetagradle-neoforge-sources-1.0.0.jar"))
+        }
     }
 
     repositories {
